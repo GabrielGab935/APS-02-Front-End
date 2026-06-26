@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+
+    
+<style>
+
+    body{
+    background-color: #efefef;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table{
+    width: 820px;
+    margin: 30px auto;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th, td{
+    border: 1px solid #2b4f86;
+    padding: 15px;
+}
+
+.topo th{
+    background-color: #003b80;
+    color: white;
+    font-size: 22px;
+}
+
+td{
+    background-color: #f5f5f5;
+    font-size: 28px;
+}
+
+.rodape{
+    background-color: #003b80;
+    color: white;
+    font-size: 22px;
+    padding: 20px;
+}
+
+table tr td img{
+    width: 60px;
+}
+
+</style>
+</head>
+
+<body>
+
+<table>
+    
+    <tr class="topo">
+        <th rowspan="2">MODELO</th>
+        <th rowspan="2">ALTURA</th>
+        <th rowspan="2">LARGURA</th>
+        <th colspan="2">ACESSÓRIOS</th>
+    </tr>
+
+    <tr class="topo">
+        <th>USB</th>
+        <th>WI-FI</th>
+    </tr>
+
+    <tr>
+        <td>Xk-7</td>
+        <td>20</td>
+        <td>20</td>
+        <td><img src="sim.jpg" alt="Sim"></td>
+        <td><img src="nao.jpg" alt="Não"></td>
+    </tr>
+
+    <tr>
+        <td>WZ8</td>
+        <td>10</td>
+        <td>15</td>
+        <td><img src="nao.jpg" alt=""></td>
+        <td><img src="nao.jpg" alt=""></td>
+    </tr>
+
+    <tr>
+        <td>X15</td>
+        <td>30</td>
+        <td>30</td>
+        <td><img src="sim.jpg" alt="Sim"></td>
+        <td><img src="sim.jpg" alt="Sim"></td>
+    </tr>
+
+    <tr>
+        <th colspan="5" class="rodape">
+            Dados técnicos do equipamento
+        </th>
+    </tr>
+
+</table>
+
+</body>
+</html>
